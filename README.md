@@ -39,3 +39,71 @@ alunos invalidos:  [{'nome': 'Eva', 'motivos': ['Idade menor que 16 anos']}, {'n
 </pre>
 </ul>
 </details>
+<details>
+<summary>Atividade 2 - Orientação a Objetos - Controle de Projetos</summary>
+<ul>
+<li>Implemente a organização das classes Projetos e Desenvolvedores</li>
+<pre>
+Projeto:
+  Atributos:
+    - Descrição
+    - Prazo em dias
+    - Pontos de função
+    - **Desenvolvedores**
+  Metodos:
+    - adicionar_desenvolvedor
+    - calcular_capacidade_total
+    - verificar_viabilidade
+      - projeto viável
+      - projeto inviável
+</pre>
+<pre>
+Desenvolvedor:
+  - Nome
+  - Senioridade
+  - Pontos por dia
+  - Linguagem
+</pre>
+<li>Crie um Projeto</li>
+<li>Adicione Desenvolvedores ao Projeto</li>
+<li>Validar viabilidade</li>
+
+</ul>
+</details>
+<details>
+<summary>Atividade 3 - Orientação a Objetos - Sistema de controle de Biblioteca</summary>
+<ul>
+<li>Implemente a organização das classes Livros e Biblioteca</li>
+<pre>
+Livro:
+  Atributos:
+    - isbn
+    - titulo
+    - autor
+    - ano
+  Metodos:
+    - Cadastrar livro
+</pre>
+<pre>
+Biblioteca:
+  - [Livros] (Array de livros
+  Metodos:
+    - Adiciona livros
+    - Listar Livros
+    - Buscar livros pelo isbn
+</pre>
+<li>Crie varios Livros</li>
+<li>Adicione-os em uma biblioteca</li>
+<li>Teste o metodo de busca de livros</li>
+
+</ul>
+</details>
+
+<details>
+<summary>Atividade 4 - Flask Framework</summary>
+<ul>
+<li>Provisione a atividade 1 como uma API</li>
+<pre>
+GET /alunos (Retorna lista de alunos da atividade 1)
+POST /alunos (Recebe um objeto de Aluno e valida de acordo com as regras da atividade 1)
+</details>
